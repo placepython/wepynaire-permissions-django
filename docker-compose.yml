@@ -1,0 +1,18 @@
+version: "3.9"
+services:
+    postgres:
+        container_name: wepynaire_postgres_container_28419
+        image: postgres:latest
+        working_dir: /app
+        restart: always
+        ports:
+            - "28419:5432"
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: postgres
+        volumes:
+            - "postgres_wepynaire_28419:/var/lib/postgresql"
+
+volumes:
+    postgres_wepynaire_28419:
