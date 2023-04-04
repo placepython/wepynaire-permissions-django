@@ -1,0 +1,95 @@
+[
+{
+    "model": "companies.company",
+    "pk": 1,
+    "fields": {
+        "name": "PlacePython"
+    }
+},
+{
+    "model": "companies.company",
+    "pk": 2,
+    "fields": {
+        "name": "Openclassrooms"
+    }
+},
+{
+    "model": "companies.company",
+    "pk": 3,
+    "fields": {
+        "name": "Docstring"
+    }
+},
+{
+    "model": "companies.project",
+    "pk": 1,
+    "fields": {
+        "title": "Organiser les wepynaires du mois de mai"
+    }
+},
+{
+    "model": "companies.project",
+    "pk": 2,
+    "fields": {
+        "title": "Créer une section rediff sur le site"
+    }
+},
+{
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$NNqaivbhJPX8ffu3xnQ31M$vMKxOi1uZq/MWDf9cIbFloq6pQGOl+sJLUSFXV7CJDA=",
+        "last_login": "2023-04-03T17:01:54Z",
+        "is_superuser": false,
+        "username": "guido",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-04-03T16:17:07Z",
+        "groups": [],
+        "user_permissions": [
+            1,
+            2,
+            4
+        ]
+    }
+},
+{
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$5m2tplPzCHH6A7OS0cUdej$7nTTSJCBn2Bvo/Hm50qlvNS0k0nVu3KSQEs3UTspx9c=",
+        "last_login": "2023-04-03T16:23:41.056Z",
+        "is_superuser": false,
+        "username": "jacob",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-04-03T16:17:29Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+        "password": "!EDWskXkrCl0ghCyI8NQijO0nvrTzRiekizOUG7As",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "AnonymousUser",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-04-03T17:04:24.002Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
